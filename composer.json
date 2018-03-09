@@ -1,5 +1,5 @@
 {
-    "name": "decred/decred-php-app",
+    "name": "decred/decred-php-api",
     "description": "PHP API for the Decred Cryptocurrency",
     "autoload": {
         "psr-4": {

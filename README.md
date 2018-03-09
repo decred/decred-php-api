@@ -1,6 +1,6 @@
 # Decred PHP API
 
-<!--[![Build Status](https://travis-ci.org/decred/decred-php-api.svg?branch=master)](https://travis-ci.org/decred/decred-php-api)-->
+[![Build Status](https://api.travis-ci.org/decred/decred-php-api.svg?branch=master)](https://travis-ci.org/decred/decred-php-api)
 <!--[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/decred/decred-php-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/decred/decred-php-api/?branch=master)-->
 <!--[![Code Coverage](https://scrutinizer-ci.com/g/decred/decred-php-api/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/decred/decred-php-api/?branch=master)-->
 
@@ -9,9 +9,30 @@ PHP API for the [Decred](https://decred.org) Cryptocurrency
 ## Installation
 
 Add composer package to your project
-
 ```bash
 composer require decred/decred-php-api
+```
+
+Make sure [GMP PHP extesion](http://php.net/manual/en/book.gmp.php) is installed. In ubuntu:
+```bash
+sudo apt install php7.0-gmp
+```
+
+### From repository
+
+You also can clone git package with
+```bash
+git clone https://github.com/decred/decred-php-api.git
+```
+
+But still you will need to fetch library dependencies with [composer](https://getcomposer.org/doc/00-intro.md).
+```bash
+copmoser install --no-dev
+```
+
+Don't forget to include composer autoloader.
+```php
+include __DIR__.'/../vendor/autoload.php';
 ```
 
 ## Usage examples
