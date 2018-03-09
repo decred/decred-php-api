@@ -1,6 +1,6 @@
 # Decred PHP API
 
-<!--[![Build Status](https://travis-ci.org/decred/decred-php-api.svg?branch=master)](https://travis-ci.org/decred/decred-php-api)-->
+[![Build Status](https://api.travis-ci.org/decred/decred-php-api.svg?branch=master)](https://travis-ci.org/decred/decred-php-api)
 <!--[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/decred/decred-php-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/decred/decred-php-api/?branch=master)-->
 <!--[![Code Coverage](https://scrutinizer-ci.com/g/decred/decred-php-api/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/decred/decred-php-api/?branch=master)-->
 
