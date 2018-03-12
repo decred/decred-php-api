@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ace65c98784c2c994f075472bde284a2",
-    "content-hash": "fe5f0111879458ffe2cc86a0445b6229",
+    "hash": "26b05b4a4a47da6729e756ae9abec742",
+    "content-hash": "27f44fb075e44b0576e9a1d1d40765fc",
     "packages": [
         {
             "name": "fgrosse/phpasn1",

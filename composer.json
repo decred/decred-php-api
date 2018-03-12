@@ -1,6 +1,8 @@
 {
     "name": "decred/decred-php-api",
     "description": "PHP API for the Decred Cryptocurrency",
+    "license": "ISC",
+    "keywords": ["decred", "crypto", "dcr", "bitcoin"],
     "autoload": {
         "psr-4": {
             "Decred\\": "src/Decred",
