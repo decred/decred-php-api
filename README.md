@@ -27,7 +27,7 @@ git clone https://github.com/decred/decred-php-api.git
 
 But still you will need to fetch library dependencies with [composer](https://getcomposer.org/doc/00-intro.md).
 ```bash
-copmoser install --no-dev
+composer install --no-dev
 ```
 
 Don't forget to include composer autoloader.
