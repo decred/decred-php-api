@@ -37,7 +37,7 @@ include __DIR__.'/../vendor/autoload.php';
 
 ## Usage examples
 
-Library have wide functionality, so you could find usage exmaples in `examples` library or looking into PHPUnit tests.
+Library have wide functionality, so you could find usage examples in `examples` library or looking into PHPUnit tests.
 
 ### Generating seed
 
