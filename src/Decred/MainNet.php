@@ -5,7 +5,7 @@ use Decred\Data\DataClient;
 
 class MainNet extends DecredNetwork
 {
-    const DATA_URL = "https://explorer.dcrdata.org";
+    const DATA_URL = "https://dcrdata.decred.org";
 
     const HD_PUBLIC_KEY_ID      = "\x02\xfd\xa9\x26"; // dpub
     const HD_PRIVATE_KEY_ID     = "\x02\xfd\xa4\xe8"; // dprv

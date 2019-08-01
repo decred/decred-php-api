@@ -5,7 +5,7 @@ use Decred\Data\DataClient;
 
 class TestNet extends DecredNetwork
 {
-    const DATA_URL = "https://testnet.dcrdata.org";
+    const DATA_URL = "https://testnet.decred.org";
 
     const HD_PUBLIC_KEY_ID      = "\x04\x35\x87\xd1"; // tpub
     const HD_PRIVATE_KEY_ID     = "\x04\x35\x83\x97"; // tprv
