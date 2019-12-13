@@ -1,6 +1,7 @@
 # Decred PHP API
 
-[![Build Status](https://api.travis-ci.org/decred/decred-php-api.svg?branch=master)](https://travis-ci.org/decred/decred-php-api)
+[![Build Status](https://github.com/decred/decred-php-api/workflows/Build%20and%20Test/badge.svg)](https://github.com/decred/decred-php-api/actions)
+[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 <!--[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/decred/decred-php-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/decred/decred-php-api/?branch=master)-->
 <!--[![Code Coverage](https://scrutinizer-ci.com/g/decred/decred-php-api/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/decred/decred-php-api/?branch=master)-->
 
@@ -13,7 +14,7 @@ Add composer package to your project
 composer require decred/decred-php-api
 ```
 
-Make sure [GMP PHP extesion](http://php.net/manual/en/book.gmp.php) is installed. In ubuntu:
+Make sure [GMP PHP extesion](https://www.php.net/manual/en/book.gmp.php) is installed. In ubuntu:
 ```bash
 sudo apt install php7.0-gmp
 ```
