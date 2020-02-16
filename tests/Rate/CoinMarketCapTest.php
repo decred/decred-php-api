@@ -1,4 +1,4 @@
-<?php namespace Decred\Tests;
+<?php namespace Decred\Tests\Rate;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use Decred\Rate;
 use Decred\Rate\CoinMarketCap;
 
-class RateTest extends TestCase
+class CoinMarketCapTest extends TestCase
 {
     public function test_get_price()
     {
